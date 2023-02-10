@@ -1,4 +1,4 @@
-package com.accuindex.newarchitecture.components;
+package com.junedomingo.travelapp.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

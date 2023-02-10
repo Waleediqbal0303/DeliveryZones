@@ -1,4 +1,4 @@
-package com.accuindex.newarchitecture;
+package com.junedomingo.travelapp.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.accuindex.BuildConfig;
-import com.accuindex.newarchitecture.components.MainComponentsRegistry;
-import com.accuindex.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.junedomingo.travelapp.BuildConfig;
+import com.junedomingo.travelapp.newarchitecture.components.MainComponentsRegistry;
+import com.junedomingo.travelapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
