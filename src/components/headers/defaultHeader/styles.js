@@ -24,6 +24,12 @@ export default StyleSheet.create({
         fontSize: 22,
         color: colors.black,
       },
+      titleView:{
+        flex:1, 
+        flexDirection: "row",
+        justifyContent:'center',
+        alignItems:'center'
+      }
   
   
      

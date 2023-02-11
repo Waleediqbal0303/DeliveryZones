@@ -12,15 +12,16 @@ import styles from './styles';
 const DefaultHeader = (props) => {
   
     return(
-        <View style={{ ...styles.container, ...props.containerStyle }}>
-            <View style={{flex:1, flexDirection: "row",justifyContent:'center',alignItems:'center'}}>
-            
+        <>
+            <StatusBar hidden={true} />
+            <View style={{ ...styles.container, ...props.containerStyle }}>
+                <View style={styles.titleView}>
                     <Text style={{ ...styles.title, ...props.titleStyle }}>
                         {props?.title}
                     </Text>
-        
+                </View>
             </View>
-        </View>
+        </>
     )
     
    
